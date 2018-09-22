@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by 动脑科技-Tim on 17-7-18 下午10:16
+  ~ Copyright (c) 2017. All rights reserved
+  ~
+  ~ Last modified 17-7-18 下午10:16
+  -->
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.dn.tim.customertest.widget.BoxGridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        app:separatorWidth="4dp"
+        app:separatorColor="#AAA"
+        app:numColumns="2"
+        >
+
+        <include layout="@layout/box_small"></include>
+
+        <include layout="@layout/box_small"></include>
+
+        <include layout="@layout/box_small"></include>
+
+        <include layout="@layout/box_small"></include>
+    </com.dn.tim.customertest.widget.BoxGridLayout>
+
+</FrameLayout>

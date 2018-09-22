@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by 动脑科技-Tim on 17-7-18 下午7:50
+  ~ Copyright (c) 2017. All rights reserved
+  ~
+  ~ Last modified 17-7-18 下午7:50
+  -->
+
+<resources>
+    <declare-styleable name="DoubleImageView">
+        <attr name="android:drawableLeft"/>
+        <attr name="android:drawableRight"/>
+        <attr name="android:text"/>
+        <attr name="android:textSize"/>
+        <attr name="android:textColor"/>
+        <attr name="android:spacing"/>
+    </declare-styleable>
+    
+    <declare-styleable name="BoxGridLayout">
+        <attr name="separatorWidth" format="dimension" />
+        <attr name="separatorColor" format="color" />
+        <attr name="numColumns" format="integer"/>
+    </declare-styleable>
+</resources>
